@@ -7,6 +7,10 @@
 int length,height,width;
 };
 typedef struct box box;
+//if we add
+//typedef struct{
+//}box; then no need to write typedef on last 
+
 int get_volume(box b)
 {
   
